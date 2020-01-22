@@ -1,0 +1,75 @@
+.music-info {
+    width: 450px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.music-info p {
+    color: #666;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.page-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 20px 80px 0 80px;
+}
+.page-link a {
+    border: 1px solid olive;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: olive;
+    font-size: 20px;
+}
+.page-link a:hover {
+    background: olivedrab;
+    color: white;
+}
+.page-link a:active {
+    background: yellow;
+}
+.page-link button {
+    border: 1px solid rgba(255, 0, 0, 0.808);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: rgba(255, 0, 0, 0.808);
+    background: white;
+    cursor: pointer;
+}
+.page-link button:hover {
+    background: rgba(255, 0, 0, 0.808);
+    color: white;
+}
+.page-link button:active {
+    background: red;
+}
+
+.back-button {
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 60px 10px 60px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    background: blueviolet;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    opacity: 0.7;
+}

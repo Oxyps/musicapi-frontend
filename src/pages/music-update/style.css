@@ -1,0 +1,30 @@
+.music-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music-update button {
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+
+    margin: 20px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+
+    background: yellowgreen;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: 0.2s;
+}
+
+.music-update button:hover {
+    background: olive;
+}
+.music-update button:active {
+    background: yellow;
+}

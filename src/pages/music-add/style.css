@@ -1,0 +1,53 @@
+.music-form-add {
+    width: 450px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    
+    line-height: 24px;
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+.music-form-add input {
+    padding: 5px;
+    border-radius: 3px;
+    color: darkslategrey;
+}
+
+.title, .seconds {
+    font-weight: bold;
+    color: darkslategrey;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.music-add button {
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+
+    margin: 20px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+
+    background: mediumseagreen;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: 0.2s;
+}
+
+.music-add button:hover {
+    background: rgb(60, 207, 47);
+}
+.music-add button:active {
+    background: green;
+}

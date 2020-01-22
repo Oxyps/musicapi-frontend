@@ -1,0 +1,129 @@
+.music-amount {
+    font-size: 20px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.music-list {
+    width: 450px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.music-list article {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.music-list article a {
+    text-decoration: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+    transition: 0.3s;
+}
+.music-list article #detail-link {
+    border: 2px solid blueviolet;
+    color: blueviolet;
+}
+.music-list article #detail-link:hover {
+    background: blueviolet;
+    color: white;
+}
+/* .music-list article #update-link {
+    border: 2px solid olive;
+    color: olivedrab;
+}
+.music-list article #update-link:hover {
+    background: olive;
+    color: white;
+} */
+
+.page-actions {
+    padding: 10px 80px 0px 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-actions span {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    font-size: 16px;
+    cursor: default;
+
+    display: flex;
+    justify-content: center;
+}
+
+.page-actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: blueviolet;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page-actions button:hover {
+    opacity: 0.7;
+}
+
+.page-actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.music-add {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music-add a {
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+
+    margin: 20px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+
+    background: mediumseagreen;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    transition: 0.3s;
+}
+
+.music-add a:hover {
+    background: green;
+}
